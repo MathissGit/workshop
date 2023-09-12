@@ -7,3 +7,4 @@ Connaître le débit d’eau individuel d’un foyer, adressé à des entreprise
 <h1>Solution : </h1>
 
 Création d’un système capable de récupérer les données ( consommation d’eau et qualité ) et les transmettre à une application sur laquelle on peut voir nos données.
+tt
