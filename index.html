@@ -5,26 +5,72 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Le Moulin</title> 
-        
         <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/2d91aece42.js"></script>
     </head>
 <body>
     <header>
         <!-- DEBUT navbar -->
         <nav>
-            <div class="logo">
-                <a href="index.html"><img src="img/logo_moulin.png" alt="logo"/></a>
+            <div class="navleft">
+                <a href="index.html"><img class="logo" src="logo_moulin.png" alt="logo"/></a>
             </div>
-            <div class="compte">
-                <i class="fa-regular fa-user" style="color: #000000;"></i>
+            <div class="navright">
+                <div class="connexion">
+                    <i class="fa-solid fa-wifi" style="color: #000000;"></i>
+                </div>
+                <div class="compte">
+                    <a href="connexion.html" ><i class="fa-regular fa-user" style="color: #000000;"></i></a>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        
+        <div class="dadBlock">
+            <h1>Vos information </h1>
+            <div class="block">
+                <div class="babyBlock">
+                    <div class="probar">
+                        <progress max="30" value="20"></progress>
+                        <p class="data">20 %</p>
+                    </div>
+                    <h3>Debit d'eau</h3>
+                    <p>Consecteture adipicising elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="babyBlock">
+                    <p class="data">99%</p>
+                    <h3>Qualité de l'eau</h3>
+                    <p>Consecteture adipicising elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="babyBlock" >
+                    <h2>Historique</h2>
+                    <div class="liste">
+                        <ul>
+                            <li>
+                                <p>Vendredi</p> 
+                            </li>
+                            <li>
+                                <p>Jeudi</p>
+                            </li>
+                            <li>
+                                <p>Mercredi</p>
+                            </li>
+                            <li>
+                                <p>Mardi</p>
+                            </li>
+                            <li>
+                                <p>Lundi</p>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="footer">
+            <p>CGV</p>  
+        </div>
     </footer>
 </body>
 </html>
