@@ -11,13 +11,38 @@ html, body {
     font-family: Verdana, sans-serif; 
     font-size: 100%;
     }
-   h1 {
+   .div1 {
     font-size: 200%;  
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+    
     }
+
     .logo {
         height: 200px;
         width: 200px;
+    }
+    
         
+        
+
+    
+    footer {
+        right:50%;
+        left:42%;
+        width: 100%;
+        position: absolute;
+        bottom:0;
+    
+   
+
+        
+      
+
+
 
     }
