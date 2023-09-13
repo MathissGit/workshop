@@ -81,4 +81,14 @@ progress {
 }
 .liste {
     padding: 0;
+
+}
+#ligne1 {
+    word-spacing: 5em;
+
+
+}
+.contact {
+    width: 50px;
+
 }
